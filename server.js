@@ -12,6 +12,7 @@ onNet('callbacks:server', ( result, id ) => {
 
 /**
  * @param {string} name - The name of the server event
+ * @param {number} player - The player that you want to send the callback to
  * @param {object} data - The object that contains data that you send to the server event
  * @param {function} cb - The callback that handles the response
  */
